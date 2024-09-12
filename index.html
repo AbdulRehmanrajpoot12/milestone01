@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Static Resume Builder by Abdul Rehman</h1>
+    <form id="ResumeForm">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullName">Full name: </label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phoneNumber">Phone Number: </label>
+            <input type="Tele" id="phoneNumber" name="phoneNumber" required>
+
+            <label for="address">Address: </label>
+            <input type="address" id="address" name="address" required>
+
+            <label for="profilePic">Profile Picture: </label>
+            <input type="file" id="profilePic" name="profilePic" accept="image/*" required>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Education</b></legend>
+            <label for="Education">Education: </label>
+            <textarea id="Education" name="Education" rows="4" required></textarea><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Work Experience</b></legend>
+            <label for="workExperience">Experience: </label>
+            <textarea id="workExperience" name="workExperience" rows="4" required></textarea><br>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Skills</b></legend>
+            <label for="skills">Skills: </label>
+            <textarea id="skills" name="skills" rows="4" required></textarea><br>
+            
+        </fieldset>
+
+        <!--button to toggle skills section-->
+
+    <button id="toggleSkills"><b>Hide/Show Skills</b></button>
+
+        <fieldset>
+            <legend><b>Projects</b></legend>
+            <label for="projects">Projects: </label>
+            <textarea id="projects" name="projects" rows="4" required></textarea>
+        </fieldset>
+
+        <button id="submit"><b>Generate Resume</b></button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    color:rgb(78, 78, 78);
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset{
+    border: 2px solid rgb(7, 7, 97);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 2opx;
+    background-color: rgb(245, 239, 239);
+}
+
+.profilePic{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 500%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: midnightblue;
+}
+
+label{
+    display: block;
+    margin-top: auto;
+    color: black;
+}
+
+input,textarea{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(82, 132, 134);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    background-color: darkslategrey;
+}
